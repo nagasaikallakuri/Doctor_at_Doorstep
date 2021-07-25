@@ -1,0 +1,71 @@
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+.form-group {
+  width: 30vw;
+  margin-left: 2vw;
+}
+.main-panel {
+  width: 68vw;
+  height: 100vh;
+}
+.form-row {
+  display: flex;
+  /* margin-right: -5px; */
+  /* margin-left: -5px; */
+  justify-content: flex-start;
+}
+.signup-style {
+  margin-left: 30vw;
+}
+.signup-form {
+  border: 1px solid black;
+  margin-top: 2vh;
+}
+.signup-header {
+  margin-left: 2vw;
+}
+.signup-label {
+  color: white;
+}
+.signupbutton-style {
+  margin-left: 4vw;
+}
+input.location-search-input {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.patient-request-form {
+  margin-top: 2vh;
+}
+.patient-update-profile {
+  width: 20vw !important;
+  margin-left: 37vw;
+}
+.patient-main-panel {
+  margin-top: 5vh;
+}
+.reason-list-item {
+  border: 0.5px solid black;
+  height: 6vh;
+  align-items: center;
+  background: #d9e2ea;
+}
+.login-card {
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
